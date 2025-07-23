@@ -139,7 +139,7 @@ const LeaderboardPage = () => {
               <CardTitle className="text-2xl font-bold text-gray-800">
                 Top Foodies
               </CardTitle>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center md:justify-start gap-3">
                 <SlidersHorizontal className="w-5 h-5 text-gray-600" />
                 <div className="flex gap-2 md:gap-4">
                   <Select value={selectedCountry} onValueChange={handleCountryChange}>
